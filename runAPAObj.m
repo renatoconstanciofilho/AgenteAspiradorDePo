@@ -1,3 +1,12 @@
+%{
+
+
+CONSIDERAR O runAPAObjDirigido
+
+
+%}
+
+
 %Para chamar as funções do aspirador de pó automatico (APA) baseado em um agente
 %reativo simples
 clear all;clc; close all;
