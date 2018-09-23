@@ -113,6 +113,7 @@ disp(['']);
 disp(['Total de movimentacoes: ', num2str(contador - size(sujeiraX,1))]);
 disp(['Total de lixo coletado: ', num2str(size(sujeiraX,1))]);
 disp(['Total de acoes: ', num2str(contador)]);
+disp(['Ganho em relacao ao reativo: ', num2str(abs((( contador * 100)/(24 + size(sujeiraX,1) + 1))-100)), '%']);
 
 %{
   Documentação utilizada:
